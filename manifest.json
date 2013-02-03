@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mint Transaction Clearing",
+  "description": "This extension adds clearing functionality to mint.com.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://wwws.mint.com/transaction.event*"],
+      "css": ["mintclear.css"],
+      "js": ["jquery-1.9.0.min.js", "mintclear.js"]
+    }
+  ]
+
+}

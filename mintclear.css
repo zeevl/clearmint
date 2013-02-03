@@ -1,0 +1,9 @@
+
+#transaction-list-body tr td {
+  font-weight: bold;
+}
+
+#transaction-list-body tr.cleared td {
+  font-weight: normal;
+}
+
